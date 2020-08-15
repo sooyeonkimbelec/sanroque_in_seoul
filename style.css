@@ -1,0 +1,92 @@
+/* Write some CSS below */
+
+body{
+	font-family:'Noto Serif';
+	color: black;
+	font-size:18px;
+}
+h1	{
+	font-family:'Pangolin';
+	font-size:40px;
+}
+h2{
+	text-align: center;
+}
+
+
+.banner {
+	background-image: url("images/common/chorang.jpg");
+	background-position: bottom;
+	background-size: cover;
+	padding:200px 100px;
+	opacity: 0.8;
+	text-align: center;
+}
+.banner h1 {
+	color:black;
+}
+
+.banner p {
+	line-height: 30px;
+}
+
+.button {
+	background-color: #ffd571;
+	color:white;
+	font-weight: bold;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.button:hover{
+	color:black;
+
+}
+.button-wrap{
+	margin: 100px;
+}
+.container {
+	width:900px;
+	margin: 60px auto;
+}
+
+.card{
+	background-color: :white;
+	border-radius:4px;
+	padding: 24px 30px;
+	margin:8px;
+	box-shadow: 0 0 16px rgba(0,0,0,1);
+}
+
+.card img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 15px;
+	padding:5px auto;
+}
+
+.footer{
+	padding: 30px 0;
+	color: white;
+	text-align: center;
+	background-color: #404042;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.cards {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+.moto{
+	background-color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	padding:10px 20px;
+	opacity:0.8;
+}
